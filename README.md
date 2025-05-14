@@ -1,5 +1,4 @@
-# Projekt Telepítési Útmutató
-
+# Moment - Egyszerű Közösségi Média
 Üdvözlünk! Az alábbiakban részletes útmutatót talál a fejlesztői környezet beállításához és az alkalmazás elindításához.
 
 ## Használt nyelvek és package-ek
@@ -16,7 +15,7 @@ Győződjön meg róla, hogy a következők telepítve vannak a gépén:
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 - [Angular CLI](https://angular.dev/installation)
 
-A telepítést követően ellenőrizheti, hogy a Node.js és npm megfelelően telepítve van, a következő parancsokkal:
+A telepítést követően ellenőrizheti, hogy a Node.js, npm és az Angular CLI megfelelően telepítve van, a következő parancsokkal:
 
 ```bash
 node -v
@@ -24,31 +23,36 @@ npm -v
 ng --version
 ```
 
-
 ## Klónozza le a repot
 ```bash
 git clone https://github.com/tarrgabor/Moment.git
 ```
+
 ## Telepítse a függőségeket és indítsa el a szervereket
 A klónozás után nyissa meg a projektet és nyisson meg 2 terminált.
 
 Az 1. terminálba írja:
 ```bash
-cd Backend
+cd API
 npm i
 ```
+
 Várja meg amíg települnek a package-ek, majd írja be a következőt:
 ```bash
 npm run dev
 ```
+Ehhez ne felejtse el elindítani az adatbázist (XAMPP) - (Apache és MySQL modult) és beszúrni az SQL fájlt (ezen az oldalon http://localhost/phpmyadmin/) , amit a fájlok között megtalál!
+
 A 2. terminálba írja:
 ```bash
 cd Frontend
 npm i
 ```
+
 Várja meg amíg települnek a package-ek, majd írja be a következőt:
 ```bash
 ng serve
 ```
-Miután elindította a frontend-et, ezen a linken érheti el: http://localhost:4200/
-Ne felejtse el elindítani az adatbázist se és beszúrni az SQL fájlt, amit a fájlok között megtalál!
+
+Miután elindította a Frontendet, ezen a linken érheti el: http://localhost:4200/
+Megkezdheti az oldalunk használatát!
