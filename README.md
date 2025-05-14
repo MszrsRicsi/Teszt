@@ -1,6 +1,6 @@
 # Projekt Telepítési Útmutató
 
-Üdvözlünk a projektben! Az alábbiakban részletes útmutatót talál a fejlesztői környezet beállításához és az alkalmazás elindításához.
+Üdvözlünk! Az alábbiakban részletes útmutatót talál a fejlesztői környezet beállításához és az alkalmazás elindításához.
 
 ## Használt nyelvek és package-ek
 - Frontend: Angular, TypeScript
@@ -51,3 +51,4 @@ Várja meg amíg települnek a package-ek, majd írja be a következőt:
 ng serve
 ```
 Miután elindította a frontend-et, ezen a linken érheti el: http://localhost:4200/
+Ne felejtse el elindítani az adatbázist se és beszúrni az SQL fájlt, amit a fájlok között megtalál!
