@@ -1,6 +1,8 @@
 # Moment - Egyszerű Közösségi Média
 Üdvözlünk! Az alábbiakban részletes útmutatót talál a fejlesztői környezet beállításához és az alkalmazás elindításához.
 
+A feladatok kiosztását itt tekintheti meg: [Jira](https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Ajira%253A%253Asite%252F5060a185-a4b8-4487-96be-0f84756219ee%26continue%3Dhttps%253A%252F%252Fprojectmoment.atlassian.net%252Fjira%252Fsoftware%252Fprojects%252FMOME%252Fboards%252F2&application=jira)
+
 ## Használt nyelvek és package-ek
 - Frontend: Angular, TypeScript
 - Backend: Node.js, Express
