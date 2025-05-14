@@ -29,6 +29,7 @@ git clone https://github.com/tarrgabor/Moment.git
 ```
 ## Telepítse a függőségeket és indítsa el a szervereket
 A klónozás után nyissa meg a projektet és nyisson meg 2 terminált.
+
 Az 1. terminálba írja:
 ```bash
 cd Backend
@@ -47,3 +48,4 @@ Várja meg amíg települnek a package-ek, majd írja be a következőt:
 ```bash
 ng serve
 ```
+Miután elindította a frontend-et, ezen a linken érheti el: http://localhost:4200/
