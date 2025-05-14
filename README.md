@@ -1,6 +1,6 @@
 # Projekt Telepítési Útmutató
 
-Üdvözlünk a projektben! Az alábbiakban részletes útmutatót találsz a fejlesztői környezeted beállításához és az alkalmazás elindításához.
+Üdvözlünk a projektben! Az alábbiakban részletes útmutatót talál a fejlesztői környezet beállításához és az alkalmazás elindításához.
 
 ## Használt nyelvek és package-ek
 - Frontend: Angular, TypeScript
@@ -10,16 +10,18 @@
 
 ## Telepítés
 
-Győződjön meg róla, hogy a következő programok telepítve vannak a gépén:
+Győződjön meg róla, hogy a következők telepítve vannak a gépén:
 
-- [Node.js](https://nodejs.org/en/download/) (npm-mel együtt)
+- [Node.js](https://nodejs.org/en/download/)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Angular CLI](https://angular.dev/installation)
 
 A telepítést követően ellenőrizheti, hogy a Node.js és npm megfelelően telepítve van, a következő parancsokkal:
 
 ```bash
 node -v
 npm -v
+ng --version
 ```
 
 
